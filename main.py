@@ -37,8 +37,9 @@ def generate_table(products, file_name, library, extra_column=None):
     file_path = os.path.join(library, file_name)
     doc.save(file_path)
 
+
 products = [
-    {"Número": 1, "Unid. Med": "UN", "Descrição": "PC GAMER", "Marca": "Ryzhen", "Modelo": "AMD", "Valor Unit": 3500.99, "Valor Descrito": "teste", "Qtde Unit": 1, "Total": 3500.99},
+    {"Número": 1, "Unid. Med": "UN", "Descrição": "PC GAMER", "Marca": "Ryzhen", "Modelo": "AMD", "Valor Unit": 35.00, "Valor Descrito": "teste", "Qtde Unit": 1, "Total": 3500.99},
     {"Número": 2, "Unid. Med": "UN", "Descrição": "Calculadora", "Marca": "Ryzhen", "Modelo": "AMD", "Valor Unit": 35.00, "Valor Descrito": "teste", "Qtde Unit": 70, "Total": 3500.99}
 ]
 

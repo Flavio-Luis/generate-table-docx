@@ -51,7 +51,7 @@ def generate_table(products, extra_column = None):
 # exemplo de uso
 
 products = [
-    {"Número": 1,"Unid. Med":"UN", "Descrição": "PC GAMER", "Marca": "Ryzhen", "Modelo": "AMD","Valor Unit": 3500.99, "Valor Descrito": "teste","Qtde Unit": 1, "Total": 3500.99,"Observações": "teste","Flavinho": "Fala"}
+    {"Número": 1,"Unid. Med":"UN", "Descrição": "PC GAMER", "Marca": "Ryzhen", "Modelo": "AMD","Valor Unit": "3500,99", "Valor Descrito": "teste","Qtde Unit": 1, "Total": 3500.99,"Observações": "teste","Flavinho": "Fala"}
 ]
 
 new_column = ['Flavinho']

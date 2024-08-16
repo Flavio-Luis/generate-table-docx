@@ -51,7 +51,7 @@ def generate_table(products, file_name, library, extra_column=None):
     centavos = int(round((total_value - reais) * 100))
     
     real_extensive = num2words(reais, lang="pt_BR", to='currency')
-    centavos_extensive = num2words(centavos, lang="pt_BR", to='currency')
+    centavos_extensive = num2words(centavos, lang="pt_BR", to='currency').replace("reais","centavos")
 
     join_extensive = f"{real_extensive} e {centavos_extensive}"
 
